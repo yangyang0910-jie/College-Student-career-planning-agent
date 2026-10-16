@@ -1,0 +1,41 @@
+# ===== Web =====
+fastapi>=0.110
+uvicorn>=0.27
+python-multipart>=0.0.9
+
+# ===== Config =====
+python-dotenv>=1.0
+
+# ===== Storage =====
+pymysql>=1.1
+redis>=5.0
+neo4j>=5.0
+
+# ===== Auth =====
+python-jose>=3.3
+passlib>=1.7
+bcrypt>=4.0
+
+# ===== LangChain / LangGraph =====
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-openai>=0.2
+langchain-text-splitters>=0.3
+langchain-chroma>=0.2
+langchain-huggingface>=0.1
+langchain-neo4j>=0.4
+langgraph>=0.2
+
+# ===== Vector DB & Retrieval =====
+chromadb>=0.5
+rank_bm25>=0.2
+jieba>=0.42
+FlagEmbedding>=1.2
+sentence-transformers>=2.2
+
+# ===== Files =====
+pdfplumber>=0.11
+pandas>=2.0
+xlrd>=2.0
+openpyxl>=3.1
+PyYAML>=6.0
